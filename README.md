@@ -13,18 +13,6 @@ O repositório está organizado da seguinte forma:
 4.  **Queries SQL:** Consultas para extração de relatórios e métricas.
 
 ---
-📐 Descrição do Projeto Lógico
-O esquema lógico foi derivado do modelo conceitual e implementado seguindo o modelo relacional para garantir a integridade dos dados:
-
-Clientes e Veículos: Relacionamento 1:N (um cliente pode ter vários veículos).
-
-Ordens de Serviço (OS): Entidade central que vincula mecânicos, veículos e serviços realizados.
-
-Tabelas Associativas: Implementadas para resolver relacionamentos N:N, como as peças e serviços vinculados a uma OS.
-
-Integridade: Uso de chaves primárias (PK), estrangeiras (FK) e constraints de verificação (CHECK).
-
----
 
 ## 📐 Modelagem de Dados
 
@@ -39,17 +27,12 @@ Abaixo, a representação visual da estrutura do banco de dados:
 
 ## 🚀 Como Executar o Projeto
 
-Para replicar este banco de dados em seu ambiente local (MySQL, PostgreSQL ou similar), siga os passos abaixo:
+1. Clone o repositório:
+ git clone https://github.com/vaniabordin/projeto-banco-de-dados-oficina-mecanica.git
 
-### 1. Criação do Esquema
-O arquivo principal contém toda a estrutura de tabelas, constraints e relacionamentos. Execute-o em seu gerenciador de banco de dados:
-
+2.Criação do Esquema e Dados: O arquivo principal contém toda a estrutura de tabelas e dados de teste. Execute-o no MySQL Workbench:
 👉 [**Baixar Script de Criação (SQL)**](./esquema_database_oficina.sql)
 
-### 2. Inserção de Dados e Testes
-Após criar a estrutura, você pode utilizar o mesmo script (ou o arquivo de inserção, caso decida separar) para popular as tabelas com dados fictícios para testes.
-
----
 
 ## 🔍 Exemplos de Consultas (Queries)
 
