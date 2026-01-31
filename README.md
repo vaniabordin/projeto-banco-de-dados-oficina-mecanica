@@ -60,6 +60,8 @@ Algumas perguntas que podem ser respondidas pelas consultas implementadas:
 
 ### Diagrama Entidade-Relacionamento (ER)
 ![Diagrama ER da Oficina Mecânica](docs/Diagram_ER_Oficina.png)
+![Diagrama ER da Oficina Mecânica](docs/diagrama-er-oficina-mecanica.png)
+
 
 ## Estrutura do Repositório
 
