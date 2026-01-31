@@ -59,7 +59,7 @@ Algumas perguntas que podem ser respondidas pelas consultas implementadas:
       git clone https://github.com/vaniabordin/projeto-banco-de-dados-oficina-mecanica.git
 
 ### Diagrama Entidade-Relacionamento (ER)
-![Diagrama ER](docs/Diagrama_ER_Oficina.png)
+![Diagrama ER da Oficina Mecânica](docs/Diagram_ER_Oficina.png)
 
 ## Estrutura do Repositório
 
