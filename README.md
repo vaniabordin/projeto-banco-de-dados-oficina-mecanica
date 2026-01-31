@@ -28,7 +28,7 @@ Abaixo, a visualização do modelo que serviu de base para a implementação:
 ---
 
 ## 🚀 Como Executar o Projeto
+### 1. Clone o repositório:
 
-1. **Clone o repositório:**
 ```bash
 git clone [https://github.com/vaniabordin/projeto-banco-de-dados-oficina-mecanica.git](https://github.com/vaniabordin/projeto-banco-de-dados-oficina-mecanica.git)
