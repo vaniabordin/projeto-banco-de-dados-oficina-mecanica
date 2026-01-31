@@ -1,5 +1,4 @@
 # Projeto Banco de Dados – Oficina Mecânica 🛠️
-
 Este projeto consiste na modelagem e implementação de um sistema de gerenciamento para uma oficina mecânica, cobrindo todo o ciclo de vida do banco de dados.
 ---
 
