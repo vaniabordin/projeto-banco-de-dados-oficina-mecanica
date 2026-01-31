@@ -123,18 +123,18 @@ VALUES
 
 INSERT INTO Ordem_Servico (data_abertura, status, id_veiculo, id_mecanico)
 VALUES
-('2024-05-01', 'Finalizada', 3, 1),
-('2024-05-02', 'Em andamento', 4, 2);
+('2024-05-01', 'Finalizada', 1, 1),
+('2024-05-02', 'Em andamento', 2, 2);
 
 INSERT INTO OS_Servico VALUES
-(5, 1, 1),
-(5, 2, 1),
-(6, 2, 1);
+(1, 1, 1),
+(1, 2, 1),
+(2, 2, 1);
 
 INSERT INTO OS_Peca VALUES
-(5, 1, 1),
-(5, 2, 2),
-(6, 2, 4);
+(1, 1, 1),
+(1, 2, 2),
+(2, 2, 4);
 
 -- Select básicos
 
@@ -166,15 +166,15 @@ JOIN Veiculo v ON c.id_cliente = v.id_cliente;
 
 -- Qual o valor total de peças usadas em cada OS?
 SELECT 
-    op.id_os,
+    op.id_OServico,
     SUM(op.quantidade * p.valor_unitario) AS total_pecas
 FROM OS_Peca op
 JOIN Peca p ON op.id_peca = p.id_peca
-GROUP BY op.id_os;
+GROUP BY op.id_OServico;
 
 -- Qual o valor total da mão de obra por OS?
 SELECT 
-    os.id_os,
+    os.id_OServico,
     SUM(s.valor_maoObra * oss.quantidade) AS total_mao_obra
 FROM Ordem_Servico os
 JOIN OS_Servico oss ON os.id_OServico = oss.id_oServico
